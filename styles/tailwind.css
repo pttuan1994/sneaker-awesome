@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* xs */
+html {
+  font-size: 13px;
+}
+
+/* sm */
+@media (min-width: 640px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+/* md */
+@media (min-width: 768px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+/* lg */
+@media (min-width: 1024px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+/* xl */
+@media (min-width: 1280px) {
+  html {
+    font-size: 17px;
+  }
+}
+
+/* 2xl */
+@media (min-width: 1536px) {
+  html {
+    font-size: 18px;
+  }
+}
+
+a:hover {
+  color: inherit;
+}
+
